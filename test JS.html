@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        // let blabla = "blabla"
+        // for(let s of blabla){
+        //     console.log(s)
+        // }
+
+
+        // for (let i=0; i<3 ; i++) {
+        // let n = prompt("Veuillez entrer un nombre")
+        // let s = parseFloat(n)
+        // let alea = 25
+
+        //     if (n==alea){
+        //         alert( "bravo c'est le bon nombre")
+        //         break;
+        //     }
+        //     else if(n<alea){
+        //         alert(" le nombre est plus haut")
+        //     } else if (n>alea){
+        //         alert("le nombre est plus bas")
+        //     }
+        // }
+
+        //  function test (s){
+
+        //      let res = prompt(s)
+        //      let n = parseFloat(res)
+        //      return n
+        //  }
+
+        // let level = prompt("chosi ton niveau de difficulté (1 = facile, 2 = moyen, 3 = difficile")
+        // let z = parseFloat(level)
+        // let firstLevel = 1
+        // let secondLevel = 2
+        // let thirdLevel = 3
+       
+                // z = 0
+                // let life = 0
+                // let firstLevel = 1
+                // let secondLevel = 2
+                // let thirdLevel = 3
+
+                // while(z !== firstLevel || z!==secondLevel || z !==thirdLevel ){
+                // let level = prompt("choisi ton niveau de difficulté (1 = facile, 2 = moyen, 3 = difficile")
+                // let z = parseFloat(level)
+
+                // if (z===firstLevel){
+                //     alert("vous avez 10 vie")
+                //     life = 10;
+                //     break;
+                // } else if (z === secondLevel){
+                //     alert("vous avez 5 vie")
+                //     life = 5;
+                //     break;
+                // } else if (z === thirdLevel){
+                //     alert("vous avez 3 vie")
+                //     life = 3;
+                //     break;
+                // } else{
+                //     alert("Aucun niveau de difficulté choisi ! Recommencer en choisissant 1, 2 ou 3 !")
+                // }}
+
+                // let alea = 25
+                // let n = 0
+
+        //  for (let i=0; i<life ; i++) {
+        //  let n = prompt("Veuillez entrer un nombre")
+        //  let s = parseFloat(n)
+        //  let alea = 25
+
+        //      if (n===alea){
+        //          alert( "bravo c'est le bon nombre")
+        //          break;
+        //      }
+        //      else if(n<alea){
+        //          alert(" le nombre est plus haut")
+        //      } else if (n>alea){
+        //          alert("le nombre est plus bas")
+        //      }
+        //  }
+
+                //  while(n!==alea && life != 0 ){
+                //  let s = prompt("Veuillez entrer un nombre")
+                //  n = parseFloat(s)
+                //  life--
+                //      if(n<alea){
+                //          alert("le nombre est plus haut, " + "Nombre de vie restantes  " + life)
+                //      }else if (n>alea){
+                //          alert("le nombre est plus bas, " + "Nombre de vie restantes  " + life)
+                //      }else if (n===alea){
+                //          alert("c'est le bon nombre, " + " Il vous restait " + life)
+                //          break;
+                //      }else{
+                //          life++
+                //          alert("Ceci n'est pas un nombre, recommencer")
+                //      }
+                //      if(life===0){ 
+                //      alert("dommage vous n'avez plus de vie !")
+                //      } 
+                //  }
+
+        // ajouter un message lorsqu'il n'y a plus de vie,
+        // ajouter le nombre de vie à chaque essai,  
+        // ajouter un message si ce n'est pas un nombre demandé ou un nombre//
+
+
+
+        // faire une fonction qui prend en argument une chaine de caractere
+        // qui retourne un boléen
+        // vrai si, la chaine de caractere est un palyndrome (un mot qui se lit pareil dans les deux sens)
+        //faux si c'en est pas un.
+
+
+
+
+        //  function parcourirChaineDeCaractere(word){
+        //      for(let i=0; i< word.length; i++){
+        //      console.log(word[i])
+        //      if (word === word)
+        //      return true;
+        //      }
+
+        //  }
+
+        //  parcourirChaineDeCaractere("kayak")
+
+
+         function indice(word){
+             for (let i=0; i< word.length; i++){
+                 console.log (i, "-", word.length - i, word[i],  word[word.length - i - 1])
+            if (word[i] === word[word.length - i - 1]){
+                alert("ce mot est un palyndrome");
+            }
+            else{
+                alert("ce mot n'est pas un palyndrome")
+                break;
+            }
+             }
+         }
+
+         indice("kayak")
+
+        //Afficher les nombres premiers plus petit que 100 ou 1000
+        //
+        //Faire une fonction qui prend en argument un nombre
+        //retourn vrai si le nombre est premier, retourn faux si le nombre ne l'est pas.
+
+
+        function nombrePremier(number){
+            console.log(number)
+        }
+
+        nombrePremier(7)
+
+
+
+    </script>
+</body>
+</html>

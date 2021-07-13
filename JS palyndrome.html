@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // faire une fonction qui prend en argument une chaine de caractere
+        // qui retourne un boléen
+        // vrai si, la chaine de caractere est un palyndrome (un mot qui se lit pareil dans les deux sens)
+        //faux si c'en est pas un.
+
+
+         function indice(word){
+             for (let i=0; i< word.length; i++){
+                 console.log (i, "-", word.length - i, word[i],  word[word.length - i - 1])
+            if (word[i] === word[word.length - i - 1]){
+                alert("ce mot est un palyndrome");
+            }
+            else{
+                alert("ce mot n'est pas un palyndrome")
+                break;
+            }
+             }
+         }
+
+         indice("kayak")
+
+
+    </script>
+</body>
+</html>
